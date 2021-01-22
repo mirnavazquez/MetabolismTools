@@ -17,4 +17,5 @@ Run the example:
 ``Bubble_plot(example,  "gene", "genomes", "abundance", "group")``
 
 
+Explore the data format by looking at the "example" data. 
   
