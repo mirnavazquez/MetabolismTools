@@ -1,9 +1,9 @@
 Package: MetabolismTools
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A package used for the analysis of microbial metabolism.
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Author: Who wrote it Mirna Vazquez Rosas Landa
+Maintainer: The package maintainer mirnavrl@gmail.com
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
