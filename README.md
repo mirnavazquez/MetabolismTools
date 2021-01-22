@@ -6,13 +6,13 @@ Install the function like this:
 
 ``install.packages("devtools")``
 
-``install_github("mirnavazquez/MetabolismTools")``
-  
 ``library(devtools)``
 
-``library(ggplot2)``
-
+``install_github("mirnavazquez/MetabolismTools")``
+  
 Run the example:
+
+``library(ggplot2)``
 
 ``Bubble_plot(example,  "gene", "genomes", "abundance", "group")``
 
