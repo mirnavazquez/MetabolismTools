@@ -1,12 +1,13 @@
 Package: MetabolismTools
 Type: Package
-Title: A package used for the analysis of microbial metabolism.
+Title: A package used for the analysis of microbial metabolism
 Version: 0.1.0
-Author: Who wrote it Mirna Vazquez Rosas Landa
-Maintainer: The package maintainer mirnavrl@gmail.com
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Mirna Vazquez Rosas Landa.
+Maintainer: <mirnavrl@gmail.com>
+Description: This package for now creates a bubble plot.
+License: GNU Lesser General Public License.
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
+Imports:
+    ggplot2

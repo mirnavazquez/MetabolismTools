@@ -6,17 +6,19 @@
 #' @param tabla_de_datos_sz a valid col name to use to plot the size of the bubbles.
 #' @param tabla_de_datos_color a valid col name to use to plot the color of the bubbles.
 #' @details This function is part of a package used for the analysis of microbial metabolism.
+#' @import ggplot2
+#' @importFrom ggplot2 aes_string geom_point scale_size theme_bw theme
 #' @examples
 #' Bubble_plot(example,  "gene", "genomes", "abundance", "group")
 #' @export
 Bubble_plot<-function(tabla_de_datos, tabla_de_datos_x,
                         tabla_de_datos_y, tabla_de_datos_sz,
                         tabla_de_datos_color){
-  ggplot(tabla_de_datos,
-         aes_string(x=tabla_de_datos_x,
-                    y=tabla_de_datos_y,
-                    size=tabla_de_datos_sz,
-                    color=tabla_de_datos_color )) +
+  ggplot2::ggplot(tabla_de_datos,
+    aes_string(x=tabla_de_datos_x,
+               y=tabla_de_datos_y,
+               size=tabla_de_datos_sz,
+               color=tabla_de_datos_color )) +
     geom_point(alpha=0.5) +
     scale_size(range = c(1,4))+
     theme_bw(base_size = 9) +
