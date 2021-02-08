@@ -1,10 +1,10 @@
 # MetabolismTools
 
-This package, for now, contains one function: Bubble_plot.
+This package, for now, contains two functions: Bubble_plot and ko_pheatmap_for_CP9_groups.
 
-The first function creates a bubble plot and allows you to color by your data's particular feature.
+The first function creates a bubble plot and allows you to color by your data's particular feature. The second function is currently under development, but it makes a heatmap of specific KO ids. 
 
-Install the function like this:
+Install the package like this:
 
 ``install.packages("devtools")``
 
