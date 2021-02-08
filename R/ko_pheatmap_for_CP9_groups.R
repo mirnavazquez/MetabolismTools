@@ -5,7 +5,7 @@
 #' @param Table_genes a dataframe containing the names of the KO and the Genes.
 #' @param Order_vector vector containing the order of the Genes in the plot.
 #' @details This function is part of a package used for the analysis of microbial metabolism.
-#' @import tidyverse RColorBrewer pheatmap dplyr tibble
+#' @import RColorBrewer pheatmap dplyr tibble
 #' @examples
 #' ko_pheatmap_for_CP9_groups(Ko_Final_groups, Arsenic,  Input_data, orden_gene)
 #' @export
